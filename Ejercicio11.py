@@ -1,9 +1,13 @@
+# 
 
-contraseña_sistema  = "admin123"
+def validar():
+    correcta = "admin123"
+    usuario = input("Contraseña: ")
+    
+    if correcta == usuario:
+        print("Correcto")
+    else:
+        print("Incorrecto")
 
-Contraseña_usuario = input("ingrese contraseña")
-
-if contraseña_sistema == Contraseña_usuario:
-    print("Contraseña correcta")
-else:
-    print("contraseña incorrecta")        
+# Así la usas:
+validar()  
